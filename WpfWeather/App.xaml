@@ -1,0 +1,10 @@
+﻿<Application x:Class="WpfWeather.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:WpfWeather"
+             StartupUri="MainWindow.xaml">
+	<Application.Resources>
+		<FontFamily x:Key="LatoLight">./Assets/Fonts/Lato-Light.ttf</FontFamily>
+		<FontFamily x:Key="LatoThin">./Assets/Fonts/Lato-Thin.ttf</FontFamily>
+    </Application.Resources>
+</Application>
